@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQW8KKQ15T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BQW8KKQ15T');
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio | Quorin</title>
@@ -27,7 +35,7 @@
   "logo": "https://quorin.co/og-image.png",
   "description": "Quorin builds a Complete Virtual Office, marketing, CRM, and AI automation, for realtors and HVAC businesses, and personal brand websites for coaches.",
   "founder": { "@type": "Person", "name": "Khadija Kamran" },
-  "sameAs": ["https://www.linkedin.com/in/khadija-kamran-bb9267379/", "https://www.instagram.com/quorin.ai/"],
+  "sameAs": ["https://www.linkedin.com/company/quorin-agency/", "https://www.instagram.com/quorin.ai/"],
   "contactPoint": { "@type": "ContactPoint", "telephone": "+92-334-6085912", "email": "khadija.kamran@quorin.co", "contactType": "sales" }
 }
 </script>
@@ -45,9 +53,9 @@
       <a href="services.html">Services</a>
       <a href="about.html">About</a>
       <a href="coaches.html">Coaches</a>
+      <a href="contact.html">Contact</a>
       <a href="portfolio.html" class="active">Portfolio</a>
       <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
       <a href="https://calendly.com/khadijakamran2007/discovery-call-with-khadija" class="nav-cta">Book Free Strategy Call</a>
     </div>
     <button class="nav-toggle" aria-label="Menu">☰</button>
@@ -196,9 +204,22 @@
   </div>
 </section>
 
-<a href="https://wa.me/923346085912?text=Hi%20Khadija%2C%20I%27d%20like%20to%20know%20more%20about%20Quorin" class="whatsapp-widget" target="_blank" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.48 1.32 5L2 22l5.25-1.38c1.46.8 3.1 1.22 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.51 2 12.04 2zm5.79 14.15c-.24.68-1.4 1.31-1.94 1.39-.5.08-1.13.11-1.83-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.19-1.58-1.19-3.01 0-1.43.75-2.13 1.02-2.42.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2.01.89 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.17.28.75 1.23 1.6 1.99 1.1.98 2.03 1.29 2.32 1.43.29.14.46.12.63-.07.17-.19.71-.83.9-1.11.19-.29.38-.24.63-.14.26.1 1.63.77 1.91.91.28.14.46.21.53.33.07.12.07.68-.17 1.36z"/></svg>
-</a>
+<div class="contact-widget">
+  <div class="contact-options">
+    <a href="https://wa.me/923346085912?text=Hi%20Khadija%2C%20I%27d%20like%20to%20know%20more%20about%20Quorin" class="contact-option contact-option-whatsapp" target="_blank">
+      <span class="contact-option-icon"><svg viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.48 1.32 5L2 22l5.25-1.38c1.46.8 3.1 1.22 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.51 2 12.04 2zm5.79 14.15c-.24.68-1.4 1.31-1.94 1.39-.5.08-1.13.11-1.83-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.19-1.19-1.58-1.19-3.01 0-1.43.75-2.13 1.02-2.42.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2.01.89 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.17.28.75 1.23 1.6 1.99 1.1.98 2.03 1.29 2.32 1.43.29.14.46.12.63-.07.17-.19.71-.83.9-1.11.19-.29.38-.24.63-.14.26.1 1.63.77 1.91.91.28.14.46.21.53.33.07.12.07.68-.17 1.36z"/></svg></span>
+      <span>WhatsApp</span>
+    </a>
+    <a href="mailto:khadija.kamran@quorin.co" class="contact-option contact-option-email">
+      <span class="contact-option-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#06120d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4V4z"/><path d="M22 6l-10 7L2 6"/></svg></span>
+      <span>Email</span>
+    </a>
+  </div>
+  <button class="contact-fab" aria-label="Contact us">
+    <svg class="icon-chat" viewBox="0 0 24 24" fill="none" stroke="#06120d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="#06120d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</div>
 
 <footer>
   <div class="wrap footer-inner">
