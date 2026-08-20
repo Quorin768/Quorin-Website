@@ -116,7 +116,7 @@ a { color: inherit; text-decoration: none; }
 .hero {
   position: relative;
   padding: 100px 0 60px;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 .hero .glow { width: 700px; height: 700px; top: -200px; left: 50%; transform: translateX(-50%); }
@@ -129,15 +129,13 @@ h1.hero-headline {
   letter-spacing: -0.01em;
   margin: 28px 0 22px;
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 h1.hero-headline b, h1.hero-headline .accent { font-style: italic; background: linear-gradient(135deg, var(--emerald) 0%, #8ff5c5 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-sub {
   font-size: 18px;
   color: var(--text-secondary);
   max-width: 620px;
-  margin: 0 auto;
+  margin: 0;
   line-height: 1.65;
 }
 
@@ -178,8 +176,8 @@ h1.hero-headline b, h1.hero-headline .accent { font-style: italic; background: l
 .play-icon::after { content: ''; width: 0; height: 0; border-style: solid; border-width: 8px 0 8px 14px; border-color: transparent transparent transparent #06120d; margin-left: 3px; }
 
 /* Sections */
-section { position: relative; padding: 68px 0; }
-.section-tight { padding: 48px 0; }
+section { position: relative; padding: 48px 0; }
+.section-tight { padding: 32px 0; }
 .eyebrow { font-family: var(--font-mono); font-size: 12.5px; color: var(--emerald); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px; }
 h2.section-title {
   font-family: var(--font-voice);
@@ -385,9 +383,9 @@ h2.section-title {
 .faq-item.open .faq-toggle { transform: rotate(45deg); }
 
 /* Final CTA */
-.final-cta { text-align: center; }
+.final-cta { text-align: left; }
 .final-cta h2 { max-width: 680px; margin: 0 auto 36px; }
-.cta-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.cta-row { display: flex; gap: 16px; justify-content: flex-start; flex-wrap: wrap; }
 .btn-primary {
   padding: 15px 30px; border-radius: 100px;
   background: linear-gradient(135deg, var(--emerald), var(--emerald-deep));
@@ -480,9 +478,9 @@ footer { border-top: 1px solid var(--border); padding: 56px 0 40px; }
 .reveal.in-view { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 780px) {
-  .founder { text-align: center; }
-  section { padding: 70px 0; }
-  .coach-band { text-align: center; justify-content: center; }
+  .founder { text-align: left; }
+  section { padding: 40px 0; }
+  .coach-band { text-align: left; justify-content: flex-start; }
 }
 
 /* Expandable contact widget */
