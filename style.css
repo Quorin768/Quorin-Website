@@ -474,8 +474,8 @@ footer { border-top: 1px solid var(--border); padding: 56px 0 40px; }
 @media (max-width: 780px) { .project-grid { grid-template-columns: 1fr; } .form-row { grid-template-columns: 1fr; } }
 
 /* Reveal on scroll */
-.reveal { opacity: 0; transform: translateY(20px); transition: all 0.7s cubic-bezier(.2,.8,.2,1); }
-.reveal.in-view { opacity: 1; transform: translateY(0); }
+html.reveal-ready .reveal { opacity: 0; transform: translateY(20px); transition: all 0.7s cubic-bezier(.2,.8,.2,1); }
+html.reveal-ready .reveal.in-view { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 780px) {
   .founder { text-align: left; }
